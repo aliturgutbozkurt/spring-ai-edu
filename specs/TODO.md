@@ -35,24 +35,27 @@
   - [x] Implement homework assignment (`homework/starter` and `homework/solution`)
   - [x] Generate bilingual PDFs (`lesson-notes.pdf` & `ders-notlari.pdf`)
   - [x] Verify all quality gates and update GitHub Issue #2
-- [ ] **Module 02: Prompt Engineering, Prompt Templates & Context Management**
-  - [ ] Write `specs/modules/module-02.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: `PromptTemplate`, system prompts, dynamic context, few-shot
-  - [ ] Implement `homework/starter` & `homework/solution` (SQL query generator with rubric)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 03: Structured Output, BeanOutputConverter & Type-Safe Extraction**
-  - [ ] Write `specs/modules/module-03.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: `BeanOutputConverter`, JSON Schema, Java 27 record mapping, retry advisors
-  - [ ] Implement `homework/starter` & `homework/solution` (Resume/CV parser to strongly-typed records)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 04: Tool Calling & Function Callbacks**
-  - [ ] Write `specs/modules/module-04.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: `@Tool` annotations, `ToolCallback`, external REST integration
-  - [ ] Implement `homework/starter` & `homework/solution` (Autonomous Customer Support Ticket Triage)
-  - [ ] Generate bilingual PDFs
+- [x] **Module 02: Prompt Engineering, Prompt Templates & Context Management**
+  - [x] Write `specs/modules/module-02.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: `PromptTemplate`, system prompts, dynamic context, few-shot
+  - [x] Implement `homework/starter` & `homework/solution` (SQL query generator with rubric)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #3
+- [x] **Module 03: Structured Output, BeanOutputConverter & Type-Safe Extraction**
+  - [x] Write `specs/modules/module-03.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: `BeanOutputConverter`, JSON Schema, Java 27 record mapping, retry advisors
+  - [x] Implement `homework/starter` & `homework/solution` (Resume/CV parser to strongly-typed records)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #4
+- [x] **Module 04: Tool Calling & Function Callbacks**
+  - [x] Write `specs/modules/module-04.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: `@Tool` annotations, `ToolCallback`, external REST integration
+  - [x] Implement `homework/starter` & `homework/solution` (Autonomous Customer Support Ticket Triage)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #5
 
 ---
 
