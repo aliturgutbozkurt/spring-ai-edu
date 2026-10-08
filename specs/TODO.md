@@ -23,12 +23,18 @@
 ---
 
 ## Milestone 2: Core Course Delivery (Modules 01 to 04)
-- [ ] **Module 01: Foundations of Spring AI, Architecture & Model Providers**
-  - [ ] Write `specs/modules/module-01.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: `ChatClient` fluent API, multi-model injection, streaming SSE
-  - [ ] Implement `homework/starter` with failing tests & `homework/solution` with passing tests
-  - [ ] Generate bilingual PDFs (`lesson-notes.pdf` & `ders-notlari.pdf`)
+- [x] **Module 01: Foundations of Spring AI, Architecture & Model Providers**
+  - [x] Write `specs/modules/module-01.spec.md`
+  - [x] Write `specs/modules/module-01.plan.md`
+  - [x] Create `module-01-foundations-and-models/pom.xml` and register in root reactor
+  - [x] Implement DTOs, configuration, and multi-model routing services
+  - [x] Implement fluent `ChatClient` controllers and streaming SSE endpoints
+  - [x] Implement Virtual Thread multi-model comparison engine
+  - [x] Write comprehensive unit and integration tests (100% passing)
+  - [x] Write bilingual lesson notes (`docs/en/lesson-notes.md` & `docs/tr/ders-notlari.md`)
+  - [x] Implement homework assignment (`homework/starter` and `homework/solution`)
+  - [x] Generate bilingual PDFs (`lesson-notes.pdf` & `ders-notlari.pdf`)
+  - [x] Verify all quality gates and update GitHub Issue #2
 - [ ] **Module 02: Prompt Engineering, Prompt Templates & Context Management**
   - [ ] Write `specs/modules/module-02.spec.md`
   - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`

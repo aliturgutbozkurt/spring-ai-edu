@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: module-01-foundations-and-models
+  threads:
+    virtual:
+      enabled: true
+
+  # Default Spring AI Configuration (Local Ollama Profile)
+  ai:
+    ollama:
+      base-url: ${OLLAMA_BASE_URL:http://localhost:11434}
+      chat:
+        enabled: true
+        options:
+          model: ${OLLAMA_MODEL:llama3.2}
+          temperature: 0.7
+    openai:
+      api-key: ${OPENAI_API_KEY:offline-mock-key}
+      chat:
+        enabled: false
+      embedding:
+        enabled: false
+
+logging:
+  level:
+    com.springai.edu: DEBUG
+    org.springframework.ai: INFO

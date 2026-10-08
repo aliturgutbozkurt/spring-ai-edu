@@ -50,6 +50,16 @@ public class MockChatModel implements ChatModel {
     }
 
     @Override
+    public reactor.core.publisher.Flux<ChatResponse> stream(Prompt prompt) {
+        ChatResponse fullResponse = call(prompt);
+        String text = fullResponse.getResult().getOutput().getText();
+        String[] words = text.split(" ");
+
+        return reactor.core.publisher.Flux.fromArray(words)
+                .map(word -> new ChatResponse(List.of(new Generation(new AssistantMessage(word + " ")))));
+    }
+
+    @Override
     public ChatOptions getDefaultOptions() {
         return null;
     }
