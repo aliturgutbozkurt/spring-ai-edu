@@ -60,30 +60,34 @@
 ---
 
 ## Milestone 3: RAG, Embeddings & Multimodal AI (Modules 05 to 08)
-- [ ] **Module 05: RAG Part 1: Embeddings, Vector Databases & Document ETL**
-  - [ ] Write `specs/modules/module-05.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: Document readers, `TokenTextSplitter`, `EmbeddingModel`, `PgVectorStore`
-  - [ ] Implement `homework/starter` & `homework/solution` (Enterprise Policy QA Bot)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 06: RAG Part 2: Advanced Retrieval, Reranking & Evaluation Metrics**
-  - [ ] Write `specs/modules/module-06.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: Hybrid search, metadata filtering, semantic caching, RAG Triad evaluation
-  - [ ] Implement `homework/starter` & `homework/solution` (High-Accuracy Contract RAG)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 07: Multimodal AI: Vision, Audio, Speech & Document OCR**
-  - [ ] Write `specs/modules/module-07.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: Multimodal vision (receipt OCR), Whisper STT, TTS speech synthesis
-  - [ ] Implement `homework/starter` & `homework/solution` (Multimodal Inventory Auditing System)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 08: Chat Advisors, Memory Systems & Conversational State**
-  - [ ] Write `specs/modules/module-08.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: `MessageChatMemoryAdvisor`, JDBC/Redis memory stores, token windowing
-  - [ ] Implement `homework/starter` & `homework/solution` (Personal AI Tutor with long-term memory)
-  - [ ] Generate bilingual PDFs
+- [x] **Module 05: RAG Part 1: Embeddings, Vector Databases & Document ETL**
+  - [x] Write `specs/modules/module-05.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: Document readers, `TokenTextSplitter`, `EmbeddingModel`, `PgVectorStore`
+  - [x] Implement `homework/starter` & `homework/solution` (Enterprise Policy QA Bot)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #6
+- [x] **Module 06: RAG Part 2: Advanced Retrieval, Reranking & Evaluation Metrics**
+  - [x] Write `specs/modules/module-06.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: Hybrid search, metadata filtering, semantic caching, RAG Triad evaluation
+  - [x] Implement `homework/starter` & `homework/solution` (High-Accuracy Contract RAG)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #7
+- [x] **Module 07: Multimodal AI: Vision, Audio, Speech & Document OCR**
+  - [x] Write `specs/modules/module-07.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: Multimodal vision (receipt OCR), Whisper STT, TTS speech synthesis
+  - [x] Implement `homework/starter` & `homework/solution` (Multimodal Inventory Auditing System)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #8
+- [x] **Module 08: Chat Advisors, Memory Systems & Conversational State**
+  - [x] Write `specs/modules/module-08.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: `MessageChatMemoryAdvisor`, JDBC/Redis memory stores, token windowing
+  - [x] Implement `homework/starter` & `homework/solution` (Personal AI Tutor with long-term memory)
+  - [x] Generate bilingual PDFs
+  - [x] Verify all quality gates and update GitHub Issue #9
 
 ---
 

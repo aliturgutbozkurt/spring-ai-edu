@@ -47,10 +47,10 @@ public class MockEmbeddingModel extends AbstractEmbeddingModel {
 
     private float[] generateVector(String text, int dim) {
         float[] vector = new float[dim];
-        int hash = text.hashCode();
+        int hash = Math.abs(text.hashCode());
         for (int i = 0; i < dim; i++) {
-            // Pseudo-random deterministic normalized float between -1.0 and 1.0
-            vector[i] = (float) Math.sin(hash + i * 0.17);
+            // Deterministic positive float between 0.1 and 1.0 to guarantee positive cosine similarity
+            vector[i] = (float) (0.1 + 0.9 * Math.abs(Math.sin(hash + i * 0.17)));
         }
         return vector;
     }

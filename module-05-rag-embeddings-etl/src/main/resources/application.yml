@@ -1,0 +1,17 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: module-05-rag-embeddings-etl
+  threads:
+    virtual:
+      enabled: true
+
+edu:
+  ai:
+    rag:
+      chunk-size: 200
+      min-chunk-size-chars: 20
+      top-k: 3
+      similarity-threshold: 0.65

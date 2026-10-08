@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: module-08-advisors-memory-history
+  threads:
+    virtual:
+      enabled: true
+
+edu:
+  ai:
+    tutor:
+      max-history-messages: 10
+      token-window-budget: 2000
