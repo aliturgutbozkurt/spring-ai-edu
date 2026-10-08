@@ -33,11 +33,11 @@
         <module>module-06-advanced-rag-evaluation</module>
         <module>module-07-multimodal-vision-audio</module>
         <module>module-08-advisors-memory-history</module>
-        <!-- <module>module-09-mcp-model-context-protocol</module> -->
-        <!-- <module>module-10-agentic-workflows</module> -->
-        <!-- <module>module-11-security-and-observability</module> -->
-        <!-- <module>module-12-production-native-aot</module> -->
-        <!-- <module>capstone-enterprise-ai-assistant</module> -->
+        <module>module-09-mcp-model-context-protocol</module>
+        <module>module-10-agentic-workflows</module>
+        <module>module-11-security-and-observability</module>
+        <module>module-12-production-native-aot</module>
+        <module>capstone-enterprise-ai-assistant</module>
     </modules>
 
     <dependencyManagement>

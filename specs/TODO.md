@@ -92,43 +92,43 @@
 ---
 
 ## Milestone 4: Advanced Systems, Agents & Production (Modules 09 to 12)
-- [ ] **Module 09: Model Context Protocol (MCP): Building Clients & Enterprise Servers**
-  - [ ] Write `specs/modules/module-09.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: Spring Boot MCP Server + Spring AI MCP Client integration
-  - [ ] Implement `homework/starter` & `homework/solution` (Enterprise Microservice Gateway via MCP)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 10: Agentic AI & Autonomous Multi-Agent Workflows**
-  - [ ] Write `specs/modules/module-10.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: ReAct loop, supervisor-subagent delegation, human-in-the-loop gates
-  - [ ] Implement `homework/starter` & `homework/solution` (Autonomous Market Research Agent Squad)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 11: Production Guardrails, Safety, Auditing & Observability**
-  - [ ] Write `specs/modules/module-11.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: OWASP guardrail advisor, prompt injection defense, Jaeger tracing
-  - [ ] Implement `homework/starter` & `homework/solution` (Secure Banking Assistant with Audit Log)
-  - [ ] Generate bilingual PDFs
-- [ ] **Module 12: Production Deployment, GraalVM Native AOT & Cloud**
-  - [ ] Write `specs/modules/module-12.spec.md`
-  - [ ] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
-  - [ ] Implement runnable code: GraalVM AOT native compilation, Docker multi-stage, Kubernetes manifests
-  - [ ] Implement `homework/starter` & `homework/solution` (Sub-100ms Native AI Microservice)
-  - [ ] Generate bilingual PDFs
+- [x] **Module 09: Model Context Protocol (MCP): Building Clients & Enterprise Servers**
+  - [x] Write `specs/modules/module-09.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: Spring Boot MCP Server + Spring AI MCP Client integration
+  - [x] Implement `homework/starter` & `homework/solution` (Enterprise Microservice Gateway via MCP)
+  - [x] Generate bilingual PDFs
+- [x] **Module 10: Agentic AI & Autonomous Multi-Agent Workflows**
+  - [x] Write `specs/modules/module-10.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: ReAct loop, supervisor-subagent delegation, human-in-the-loop gates
+  - [x] Implement `homework/starter` & `homework/solution` (Autonomous Market Research Agent Squad)
+  - [x] Generate bilingual PDFs
+- [x] **Module 11: Production Guardrails, Safety, Auditing & Observability**
+  - [x] Write `specs/modules/module-11.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: OWASP guardrail advisor, prompt injection defense, Jaeger tracing
+  - [x] Implement `homework/starter` & `homework/solution` (Secure Banking Assistant with Audit Log)
+  - [x] Generate bilingual PDFs
+- [x] **Module 12: Production Deployment, GraalVM Native AOT & Cloud**
+  - [x] Write `specs/modules/module-12.spec.md`
+  - [x] Write `docs/en/lesson-notes.md` and `docs/tr/ders-notlari.md`
+  - [x] Implement runnable code: GraalVM AOT native compilation, Docker multi-stage, Kubernetes manifests
+  - [x] Implement `homework/starter` & `homework/solution` (Sub-100ms Native AI Microservice)
+  - [x] Generate bilingual PDFs
 
 ---
 
 ## Milestone 5: Capstone Project & Global Release
-- [ ] **Capstone: Enterprise Intelligent Knowledge & Operations Platform**
-  - [ ] Write `specs/modules/capstone.spec.md`
-  - [ ] Ingest internal company knowledge into PgVector
-  - [ ] Multi-turn authenticated chat with user-isolated memory
-  - [ ] Multi-Agent ReAct workflow coordinating MCP tools
-  - [ ] Production Guardrails, PII redaction, token quota manager
-  - [ ] Interactive Web UI + SSE streaming endpoints
-  - [ ] Automated end-to-end integration test suite
-- [ ] **Global Release & Validation**
-  - [ ] Complete full reactor `mvn clean test` run
-  - [ ] Compile and verify all bilingual PDFs across all modules
-  - [ ] Push all commits to GitHub repository and update issue statuses
+- [x] **Capstone: Enterprise Intelligent Knowledge & Operations Platform**
+  - [x] Write `specs/modules/capstone.spec.md`
+  - [x] Ingest internal company knowledge into PgVector
+  - [x] Multi-turn authenticated chat with user-isolated memory
+  - [x] Multi-Agent ReAct workflow coordinating MCP tools
+  - [x] Production Guardrails, PII redaction, token quota manager
+  - [x] Interactive Web UI + SSE streaming endpoints
+  - [x] Automated end-to-end integration test suite
+- [x] **Global Release & Validation**
+  - [x] Complete full reactor `mvn clean test` run
+  - [x] Compile and verify all bilingual PDFs across all modules
+  - [x] Push all commits to GitHub repository and update issue statuses

@@ -1,0 +1,14 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: module-09-mcp-model-context-protocol
+  threads:
+    virtual:
+      enabled: true
+
+mcp:
+  server:
+    name: enterprise-erp-mcp-server
+    version: 1.0.0

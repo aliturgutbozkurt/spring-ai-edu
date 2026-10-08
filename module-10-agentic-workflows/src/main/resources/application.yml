@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: module-10-agentic-workflows
+  threads:
+    virtual:
+      enabled: true
+
+agent:
+  react:
+    max-iterations: 5
+    loop-detection: true

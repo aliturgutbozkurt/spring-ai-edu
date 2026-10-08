@@ -28,18 +28,22 @@ echo "Detected PDF generation engine: ${TOOL}"
 
 for md_file in $(find_markdown_files); do
     pdf_file="${md_file%.md}.pdf"
-    echo "Processing: ${md_file} -> ${pdf_file}"
+    if [ ! -f "${pdf_file}" ] || [ "${md_file}" -nt "${pdf_file}" ]; then
+        echo "Processing: ${md_file} -> ${pdf_file}"
 
-    if [ "${TOOL}" = "marp" ]; then
-        npx -y @marp-team/marp-cli@latest "${md_file}" --pdf --allow-local-files -o "${pdf_file}" || {
-            echo "Marp export had a warning or fallback, continuing..."
-        }
-    elif [ "${TOOL}" = "pandoc" ]; then
-        pandoc "${md_file}" -o "${pdf_file}" || {
-            echo "Pandoc export had a warning, continuing..."
-        }
+        if [ "${TOOL}" = "marp" ]; then
+            npx -y @marp-team/marp-cli@latest "${md_file}" --pdf --allow-local-files -o "${pdf_file}" || {
+                echo "Marp export had a warning or fallback, continuing..."
+            }
+        elif [ "${TOOL}" = "pandoc" ]; then
+            pandoc "${md_file}" -o "${pdf_file}" || {
+                echo "Pandoc export had a warning, continuing..."
+            }
+        else
+            echo "No PDF engine detected. Install Node.js/npx or Pandoc to build PDFs from markdown."
+        fi
     else
-        echo "No PDF engine detected. Install Node.js/npx or Pandoc to build PDFs from markdown."
+        echo "Up-to-date: ${pdf_file}"
     fi
 done
 
