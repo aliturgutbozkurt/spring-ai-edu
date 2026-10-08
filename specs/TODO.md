@@ -12,13 +12,13 @@
 - [x] Create master `specs/SPECIFICATION.md`.
 - [x] Create master `specs/PLAN.md`.
 - [x] Create master `specs/TODO.md`.
-- [ ] Initialize Git repository and create public GitHub repository `aliturgutbozkurt/spring-ai-edu`.
-- [ ] Create Root `pom.xml` (Maven reactor with Java 27, Spring Boot 4 / 3.4 baseline, Spring AI BOM, Testcontainers).
-- [ ] Create `docker-compose.yml` (Ollama, PostgreSQL with pgvector, Chroma, Jaeger).
-- [ ] Create `scripts/setup-local-ollama.sh` (automatic model pulls: `llama3.2`, `nomic-embed-text`).
-- [ ] Create `scripts/export-pdfs.sh` (Node/Marp automated PDF generation toolchain).
-- [ ] Create `shared-common` module (Deterministic `MockChatModel`, test fixtures, shared records).
-- [ ] Populate GitHub Issues corresponding to each module and milestone using `gh issue create`.
+- [x] Initialize Git repository and create public GitHub repository `aliturgutbozkurt/spring-ai-edu`.
+- [x] Create Root `pom.xml` (Maven reactor with Java 27, Spring Boot 4 / 3.4 baseline, Spring AI BOM, Testcontainers).
+- [x] Create `docker-compose.yml` (Ollama, PostgreSQL with pgvector, Chroma, Jaeger).
+- [x] Create `scripts/setup-local-ollama.sh` (automatic model pulls: `llama3.2`, `nomic-embed-text`).
+- [x] Create `scripts/export-pdfs.sh` (Node/Marp automated PDF generation toolchain).
+- [x] Create `shared-common` module (Deterministic `MockChatModel`, test fixtures, shared records).
+- [x] Populate GitHub Issues corresponding to each module and milestone using `gh issue create`.
 
 ---
 
